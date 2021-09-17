@@ -7,6 +7,42 @@ html,
 body {
   margin: 0;
   padding: 0;
+  background-color: rgb(138, 138, 138);
 }
 
 /* Add styles here! */
+header {
+  background-color: white;
+  border-bottom: solid 8px rgb(84, 84, 84);  
+}
+
+.max-width-wrapper {
+  max-width: 50%;
+  margin: 0 auto;
+  min-width: 450px;
+  padding: 16px;
+}
+.title {
+  padding-top: 64px;
+  padding-bottom: 24px;
+}
+
+strong {
+  color: green;
+}
+
+.indented-heading {
+  background-color: rgb(228, 183, 2);
+  border-bottom: solid 6px rgb(172, 138, 2);
+  width: fit-content;
+  margin-left: -32px;
+  padding: 16px;
+  padding-left: 48px;
+}
+
+.card {
+  background-color: white;
+  padding: 16px;  
+  border-bottom: solid 8px rgb(84, 84, 84);
+  width: 100%;
+}
